@@ -93,8 +93,10 @@
               <div id="collapseOne" class="collapse" aria-labelledby="headingOne" >
                 <div class="card-body">
                   <img class="img-fluid" src="img/Safer-layers-v5-.jpeg"/>
-                  <p>The University uses industry best practices in data security to minimize risks to user personal data through data loss, misuse, unauthorized access and unauthorized disclosure and alteration. All user data is protected against unauthorized access or distribution. User personally identifiable information (PII) will never be shared with third parties without user permission. Users can delete all personally identifiable information (PII) and all anonymous data from our servers at any time by using commands within the Safer in Illinois App. Also, users select their preference from five levels of privacy within the app, which correspond to different amounts of stored information. </p>              
-                </div>
+<p>
+                    The University uses industry best practices in data security to minimize risks to user personal data through data loss, misuse, unauthorized access and unauthorized disclosure and alteration. All user data is protected against unauthorized access or distribution. User personally identifiable information (PII) will never be shared with third parties without user permission. Users can delete all personally identifiable information (PII) and all anonymous data from our servers at any time by using commands within the Illinois App. Also, users select their preference from five levels of privacy within the app, which correspond to different amounts of stored information.                 
+
+</p>                 </div>
               </div>
             </div>
             <div class="card">
@@ -112,11 +114,9 @@
                     <li>Personal identification, such as NetID, UIN, and cell phone number, are used to create user accounts on the Safer in Illinois App. This personal information is shared with Technology Services and is stored on the user’s phone as well as on account servers.
                     </li>
                     <li>
-                      The SARS CoV-2 test results that users can retrieve through the Safer in Illinois App are stored on their phones. The test result is saved encrypted in the secure database for the Safer in Illinois App in case users need to access their data from a new device.  The Safer in Illinois app does not share the test results with anyone.
-                    </li>
+                      The SARS CoV-2 test results that users can retrieve through the Safer in Illinois App are stored on their phones.                    </li>
                     <li>
-                      The anonymous Bluetooth keys that are used as proximity records in the Exposure Notification system are stored on the phone for 14 days and then are automatically deleted. When a user has a positive test result, and if they have opted-in for Exposure Notification, 14-days of their Bluetooth keys are uploaded to a secure database server and then downloaded by other phones so that those phones can look for matches with the keys they have saved. These random keys are de-identified from the personal identity of users. The keys expire and are deleted automatically after 14 days from both the phones and the database server. The data is not saved anywhere else. 
-                    </li>
+                      The anonymous Bluetooth tokens that are used as proximity records in the Exposure Notification system are stored on the phone for 14 days and are then automatically deleted. When a user has a positive test result (and if they have opted-in for Exposure Notification), 14-days’ worth of their Bluetooth tokens are uploaded to a secure database server and then downloaded by the other phones using the app. Each app then checks for matches against the token history saved on their phone. The tokens expire and are deleted automatically after 14 days, both from the phones and from the database server. The tokens are not saved anywhere else. Note that these randomly generated tokens are de-identified and are not associated with a particular phone or individual.                    </li>
                   </ul>
                 </div>
               </div>
@@ -125,14 +125,12 @@
               <div class="card-header" id="headingThree">
                 <h2 class="mb-0">
                   <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Other than the infected individual, who else will receive notification of a test result through the Safer in Illinois app, and what data will be shared? 
-                  </button>
+                    Other than the infected individual, who else will receive notification of a test result through the Safer in Illinois app, and what data will be shared?                  </button>
                 </h2>
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" >
                 <div class="card-body">
-                  Only the infected individual will be notified of test results. The test result notification comes directly from the healthcare provider. The notification is encrypted in transit and decrypted on the user’s  phone. The test result is saved encrypted in the secure database for the Safer in Illinois App in case users need to access their data from a new device. No other party can decrypt the test result. Test results, whether they are negative or positive, are received only by the tested individual. The Safer in Illinois app will not share test results information with anyone. The laboratory that conducted the test is required by law to submit all test results to the Illinois Department of Public Health, which is managing the response to the epidemic.              
-                </div>
+                  When users of Safer in Illinois elect to receive their diagnostic test results through the app, the results are transmitted from the health care provider in charge of the tests. (On UIUC campus that is McKinley Foundation.) Only the infected individual will be notified of test results through the app. The notification is encrypted in transit and decrypted on the user’s  phone. The test result is also saved in an encrypted form in our secure database in case users need to access their data from a new device. No other party but the user can decrypt the test result. The Illinois app will not share users’ test results information with anyone. The laboratory that conducted the test is required by law to submit all test results to the Illinois Department of Public Health, which is managing the response to the epidemic.                  </div>
               </div>
             </div>
             <!-- Question 4-->
@@ -146,12 +144,17 @@
               </div>
               <div id="collapseFour" class="collapse" aria-labelledby="headingFour" >
                 <div class="card-body">
-                  <p>Contact tracing is a public health procedure used to identify people who may have come into contact with an infected person. Public health workers who conduct contact tracing interview known infected individuals, attempt to find all recent contacts with the infected individual, and then follow up with those contacts with testing, isolation, treatment and other measures. </p>
+                  Contact tracing is a public health procedure used to identify people who may have come into contact with an infected person. Public health workers who conduct contact tracing interview known infected individuals, attempt to find all recent contacts with the infected individual, and then follow up with those contacts with testing, isolation, treatment and other measures. 
 
-<p>The Safer in Illinois app <b>does not</b> do contact tracing. The Safer in Illinois app has no way of knowing the identity of the other people who are using the app, or of knowing the identity of users who are infected. </p>
+Champaign-Urbana Public Health District manages human contact tracing in Champaign County. A team of contact tracers from CUPHD is assigned specifically to work on UIUC campus through McKinley Clinic. 
 
-<p>The Safer in Illinois app provides <b>exposure notification</b>. Exposure notification lets people know if they were in the vicinity of someone who was later found to be infected. If users turn on exposure notification, their phones store Bluetooth-emitted encrypted tokens when they are in near proximity to other phones. If users of the app later find out they are infected, 14-days of their Bluetooth keys are uploaded to a secure database server and then downloaded by other phones so that those phones can look for matches with the keys they have saved. Phones that find matches notify their users that they might have been exposed. Exposure notifications are generated on each user’s phone. The notification is displayed only on the user’s phone. The exposure notifications are not reported to any other party. </p>          
-                </div>
+ 
+
+The Safer in Illinois app does not do contact tracing. It can’t, because the Safer in Illinois app does not know the identities of other users of the app. 
+
+ 
+
+The Safer in Illinois app provides exposure notification. Exposure notification lets people know if they were in the vicinity of someone who was later found to be infected. if users turn on exposure notification, their phones store Bluetooth-emitted tokens when they are in sufficient proximity to other phones. If users of the app later find out they are infected, 14-days of their Bluetooth tokens are uploaded to a secure database server and then downloaded by other phones. Then those phones look for matches with the tokens they have saved. Phones that find matches notify their users that they might have been exposed. Exposure notifications are generated on each user’s phone, and the notification is displayed only on the user’s phone. The exposure notifications are not reported to any other party.</div>
               </div>
             </div>
             <!-- Q5 -->
@@ -165,9 +168,9 @@
               </div>
               <div id="collapseFive" class="collapse" aria-labelledby="headingFive" >
                 <div class="card-body">
-                  <p>No, there are no plans to add geolocation tracking. We have discussed digital geolocation tracking of infections, but it touches a hot button with members of our community. Many people are not interested in location tracking, for privacy reasons. If we were to implement location tracking, it would have to be as an opt-in opportunity only. </p>
+                  <p>No, there are no plans to add geolocation tracking. We have discussed digital geolocation tracking of infections, but it touches a hot button with members of our community. Many people are not interested in location tracking for privacy reasons. If we were to implement location tracking, it would have to be as an opt-in opportunity only. </p>
 
-<p>One reason to have location tracking of infections is that it would be very useful in curbing infection hotspots or super spreader events. But we are unlikely to offer location tracking in the Safer in Illinois app unless we can do it in an anonymous fashion, so that we're not sharing any individualized data, in order to protect privacy. </p>            
+<p>One reason to have location tracking of infections is that it would be very useful in curbing infection hotspots or super spreader events. But we are unlikely to offer location tracking in the Safer in Illinois app unless we can do it in an anonymous fashion, so that we're not sharing any individualized data, in order to protect privacy.</p>            
                 </div>
               </div>
             </div>
@@ -182,10 +185,25 @@
               </div>
               <div id="collapseSix" class="collapse" aria-labelledby="headingSix" >
                 <div class="card-body">
-                  <p>The Safer in Illinois app will be used only for the following functions: (1) Connecting with health care providers to receive test results and care recommendations, (2) Self-reporting of symptoms, (3) Opt-in Exposure Notification, (4) Enter/Do Not Enter status for campus buildings, (5) Recommended steps for improving and maintaining the user’s health, (6) Simplified up-to-date county public health guidelines. Note that the Safer in Illinois app does not use location tracking, so it cannot report or track user whereabouts.    </p>        
+                  <p>No. The Safer in Illinois app will be used only for the following functions: (1) Connecting with health care providers to receive test results and care recommendations, (2) Self-diagnosis reporting of symptoms, (3) Opt-in Exposure Notification, (4) Enter/Do Not Enter status for campus buildings, (5) Recommended steps for improving and maintaining the user’s health, (6) Simplified up-to-date county public health guidelines. The Safer in Illinois app does not report geo-location, so it cannot report or track a user’s whereabouts.</p>        
                 </div>
               </div>
             </div>
+            <!-- Q6b -->
+                        <div class="card">
+                          <div class="card-header" id="headingSix">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Why does the app ask to enable location services if it is not using them for location tracking?                               </button>
+                            </h2>
+                          </div>
+                          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" >
+                            <div class="card-body">
+                              <p>
+                                If you opt-in to use the exposure notification function of the app, you need to turn on location services in order to activate your device’s Bluetooth low-energy technology, which powers the exposure notification features of the app. Even if you turn on location services, the app does not access your location, or collect or store any location data.                               </p>        
+                            </div>
+                          </div>
+                        </div>
             <!-- Q7 -->
             <div class="card">
               <div class="card-header" id="headingSeven">
@@ -197,7 +215,8 @@
               </div>
               <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" >
                 <div class="card-body">
-                  <p>The Safer in Illinois app will not retain data for long-term study. The Exposure Notification data expires automatically after 14 days and is not saved anywhere. A daily analysis will be made of the number of Safer in Illinois app users who have received positive test results. These daily statistics will be reported publicly and will therefore persist. </p>             
+                  <p>
+                    No. The Safer in Illinois app will not retain data for long-term study. The Exposure Notification data expires automatically after 14 days and is not saved anywhere. We will create summary statistics of a variety of measures, such as number of people tested, number of positive tests, and number of users of the app. We are in discussion about whether and how to make such statistics public; if we do make such statistics public, then they will persist.                  </p>             
                 </div>
               </div>
             </div>
@@ -206,13 +225,13 @@
               <div class="card-header" id="headingEight">
                 <h2 class="mb-0">
                   <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                    Will the Exposure Notification capability of the Safer in Illinois app be used after the Covid-19 epidemic is over? 
-                  </button>
+                    Will the Safer in Illinois app be used after the Covid-19 epidemic is over?                   </button>
                 </h2>
               </div>
               <div id="collapseEight" class="collapse" aria-labelledby="headingEight" >
                 <div class="card-body">
-                  <p>The Safer in Illinois app, and all of its features, will be retired when the Illinois Department of Public Health declares that the Covid-19 epidemic is over. All individual-level data associated with the Safer in Illinois App will be deleted.</p>              
+                  <p>
+                    No. The Safer in Illinois app, and all of its features, will be retired when the Illinois Department of Public Health declares that the Covid-19 epidemic is over. All individual-level data associated with the Safer in Illinois App will be deleted at that time. Note that individual users can remove all of their data from the system whenever they choose to do so.                   </p>              
                 </div>
               </div>
             </div>
