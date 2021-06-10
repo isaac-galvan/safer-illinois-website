@@ -36,7 +36,7 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <a class="navbar-brand" href="https://illinois.edu">        
+    <a class="navbar-brand" href="https://illinois.edu">
       <img src="img/illinois-wordmark.png" alt="University of Illinois wordmark" style="width: 160px;">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,13 +62,13 @@
       <div class="row mb-5">
         <div class="col-md-8">
           <div class="row">
-            <!-- 
+            <!--
             <div class="col-12">
 
             <div class="alert alert-danger" role="alert">
               <h4>August 15, 2020: Issue with Status and Next Steps</h4>
               <p>
-                Users of Safer Illinois will see "Not Available" on their current status and their Next Steps are blank. 
+                Users of Safer Illinois will see "Not Available" on their current status and their Next Steps are blank.
 
                 We are working to resolve this issue and updates will follow shortly.
 
@@ -84,11 +84,11 @@
                   <ul>
                     <li>
                       Download version 2.4.1 for iPhone below for <b>important updates and bug fixes.</b>
-  
+
                     </li>
-                  
+
                   <li>
-                    View the <a onclick="gtag('event','walkthrough')" target="_blank" href="http://go.illinois.edu/safer-illinois-walkthrough">Safer Illinois How-To</a> to learn how to update your building entry status.                   
+                    View the <a onclick="gtag('event','walkthrough')" target="_blank" href="http://go.illinois.edu/safer-illinois-walkthrough">Safer Illinois How-To</a> to learn how to update your building entry status.
 
                   </li>
                   <li>
@@ -117,10 +117,10 @@
             <div class="col-12">
 
               <!-- <h3>Get tested and keep our community healthy</h3> -->
-              
+
               <h3>The official COVID-19 app for the University of Illinois. The app provides pandemic resources to support community health and safety.</h3>
             </div>
-            
+
           </div>
         </div>
         <div class="col-md-3">
@@ -137,7 +137,7 @@
         <div class="col-xl-9 mx-auto">
           <h1 class="mb-5">Keep our community safe with the Safer Illinois app!</h1>
         </div>
-        
+
       </div>
       <div class="row justify-content-center">
         <div class="col-sm-2 col-md-3"></div>
@@ -150,7 +150,7 @@
         </div>
         <div class="col-sm-2 col-md-3"></div>
       </div>
-      
+
     </div>
   </header>
 -->
@@ -211,7 +211,7 @@
           <h2>Show Building Access Status</h2>
 
             <p class="">
-              Your Building Access status is based on your private testing history. We can't access your test results; they're for your eyes only! 
+              Your Building Access status is based on your private testing history. We can't access your test results; they're for your eyes only!
 
             </p>
             <p>
@@ -287,7 +287,7 @@
             <a onclick="gtag('event','google-store')" href="https://play.google.com/store/apps/details?id=edu.illinois.covid">
               <img class="img-fluid" src="img/google-play-badge.png" id="play-store">
             </a>
-          </div>            
+          </div>
 
           <div class="col-7 col-sm-4 col-md-3" >
             <a onclick="gtag('event','apple-store')" href="https://apps.apple.com/us/app/safer-illinois/id1524691383">
@@ -317,6 +317,29 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JavaScript for dialogflow-->
+  <meta name="viewport" content="width-device-width, initial-scale=1">
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="SaferIllini"
+    agent-id="cb00718b-5a45-4ca1-bde6-d8189257e563"
+    language-code="en"
+    chat-icon="img/illinois-icon-chat.jpg"
+  ></df-messenger>
+  <style>
+    df-messenger {
+     --df-messenger-bot-message: #878fac;
+     --df-messenger-button-titlebar-color: white;
+     --df-messenger-chat-background-color: #fafafa;
+     --df-messenger-font-color: white;
+     --df-messenger-send-icon: #878fac;
+     --df-messenger-user-message: #479b3d;
+     --df-messenger-minimized-chat-close-icon-color: #df9b56;
+     --df-messenger-button-titlebar-font-color: #df9b56;
+    }
+  </style>
 
 </body>
 
